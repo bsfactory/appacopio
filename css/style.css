@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tinfo{color: #333333;font-size: 13px;margin: 0;padding: 0;font-size: 13px;}
+#aviso{
+
+	margin-top:		1px;
+	position:		relative;
+	left:			20px;
+	width:			450px;
+	color:			#333333;
+	font-family:	'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size:		11px;
+	border-style:	solid;
+	border-width:	1px;
+	padding:		10px;
+}
+
+	
+	
+
+/* -------- Paginacion -------- */
+	
+
+#container .pagination ul li.inactive,
+#container .pagination ul li.inactive:hover{
+	background-color:#ededed;
+	color:#bababa;
+	border:1px solid #bababa;
+	cursor: default;
+}
+
+#container .pagination{
+	width: 750px;
+	height: 25px;
+	padding-left:75px;
+}
+
+#container .pagination ul li{
+	list-style: none;
+	float: left;
+	border: 1px solid #3B5998;
+	padding: 2px 6px 2px 6px;
+	margin: 0 3px 0 3px;
+	font-family: arial;
+	font-size: 10px;
+	color: #3B5998;
+	font-weight: bold;
+	background-color: #f2f2f2;
+}
+
+#container .pagination ul li:hover{
+	color: #fff;
+	background-color: #3B5998;
+	cursor: pointer;
+}
+
+.go_button{
+	background-color:#f2f2f2;
+	border:1px solid #3B5998;
+	color:#cc0000;
+	cursor:pointer;
+	position:absolute;
+	margin-top:-1px;
+}
+
+.total{
+	float:right;
+	font-family:arial;
+	color:#999;
+}
+
+	
+	
+	
+/* -------- ESTILOS DE MENSAJES -------- */
+
+.info, .success, .warning, .error, .validation {
+  border: 1px solid;
+  margin: 10px 0px;
+  padding:15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+.info {
+  color: #00529B;
+  background-color: #BDE5F8;
+  background-image: url('../img/msj/info.png');
+}
+.success {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+  background-image:url('../img/msj/success.png');
+}
+.warning {
+  color: #9F6000;
+  background-color: #FEEFB3;
+  background-image: url('../img/msj/warning.png');
+}
+.error {
+  color: #D8000C;
+  background-color: #FFBABA;
+  background-image: url('../img/msj/error.png');
+}
+	
+	
+
+
+
+input,select,textarea:disabled
+{
+background:#FFFFFF;
+}
+
+
+/*-- Subir Archivos */
+#progress { position:relative; width:280px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+#bar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+#percent { position:absolute; display:inline-block; top:1px; left:48%;font-size:10px }

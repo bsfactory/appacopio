@@ -1,0 +1,1 @@
+<input type="text" class="inputtext" id="Direccion" name="Direccion" size="33" autocomplete="off" onblur="return IsLetrayOtros(event)" onkeypress="return IsLetrayOtros(event)" />

@@ -1,0 +1,37 @@
+.title_header{background:white;padding:10px 10px 10px}
+.title_header h2.title_h{margin:0;font-size:14px;padding:0 0 0 24px;background:url(/rsrc.php/z4XGZ/hash/7abvozy3.gif) no-repeat left 1px}
+.title_header h2.no_icon{background:none;padding:0}
+.title_header.add_border{border-bottom:solid 1px #ccc}
+.title_header.gray{background-color:#f7f7f7}
+.title_header.shorten{padding-bottom:0}
+.title_header.no_padding{padding:0}
+.title_header h4.title_h{color:#666;font-size:11px;font-weight:normal;padding:3px 0 0 24px}
+.title_header h4.no_icon{padding:3px 0 0 0}
+.canvas_error_page h3.error_details{color:#555;font-size:11px;font-weight:normal;margin:0;padding:10px 0 0 0}
+.canvas_error_page p{line-height:16px;margin:10px 0 15px 0}
+.canvas_error_page div.action_buttons{padding:15px 0 0;text-align:center}
+.canvas_error_page div.action_buttons .inputbutton{margin:0 4px}
+.canvas_error_page div.parse_runtime_errors{background:#f7f7f7;border:1px solid #ccc;margin:10px 0;padding:10px}
+.UIRoundedTransparentBox{padding:0;margin:0}
+.UIRoundedTransparentBox_Inner{padding:0;margin:0;position:relative}
+.UIRoundedTransparentBox_Border{border:0px solid #cfcfcf;padding:0;margin:0;background:transparent}
+.UIRoundedTransparentBox_Corner{background:transparent url(/rsrc.php/z28CO/hash/6jwhsirz.gif) left top no-repeat;width:8px;height:8px;padding:0;margin:0;overflow:hidden;position:absolute}
+.UIRoundedTransparentBox_TL{left:0;top:0;background-position:0 0}
+.UIRoundedTransparentBox_TR{right:0;top:0;background-position:-8px 0}
+.UIRoundedTransparentBox_BL{left:0;bottom:0;background-position:0 -8px}
+.UIRoundedTransparentBox_BR{right:0;bottom:0;background-position:-8px -8px}
+.UIInterstitialBox_Container{padding:40px 50px}
+.UIRoundedTransparentBox_Striped .UIInterstitialBox_Container{padding:40px 30px 25px}
+.UIStripe_Image{margin:0;position:absolute;z-index:1}
+.UIInterstitialBox_Container ul{margin:0 0 0 13px;padding:0;list-style-type:square}
+.UIInterstitialBox_Container ul li{color:#3b5998}
+.UISimpleMessage_Container{padding:0;margin:0}
+.UISimpleMessage_Title{padding:0 0 10px 0;margin:0;border-bottom:1px solid #ccc}
+.UISimpleMessage_Title h1{padding:0;font-size:22px}
+.UISimpleMessage_Title h2{padding:0;font-size:14px}
+.UISimpleMessage_Content{margin:0;padding:0}
+.UISimpleMessage_HasIcon .UISimpleMessage_Title h1{padding-left:30px;background-position:left top;background-repeat:no-repeat}
+.UISimpleMessage_HasIcon .UISimpleMessage_Title h2{padding-left:25px;background-position:left top;background-repeat:no-repeat}
+.UISimpleMessage_HasIcon .UISimpleMessage_Content{padding-left:0}
+
+#bootloader_css_a1r4hi18ctcksk00_pkg_css { height: 42px; }
